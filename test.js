@@ -1,5 +1,5 @@
 // terminal.test.js
-
+//this is for the test file 
 const { executeCommand } = require('./main'); // Assuming your main.js exports executeCommand function
 
 describe('Terminal', () => {
