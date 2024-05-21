@@ -14,7 +14,7 @@ describe('Terminal', () => {
   afterEach(() => {
     document.body.removeChild(terminal);
   });
-
+console.log("hello world");
   test('executes command and displays response', () => {
     const command = 'test command';
     executeCommand(command);
